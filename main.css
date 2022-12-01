@@ -16,6 +16,10 @@
     margin: auto;
     width: fit-content;
     margin-top: 0.8rem;
+    background: transparent;
+    color: var(--primary-white);
+    border-color: var(--primary-white);
+    border-radius: 0.3rem;
 }
 
 body{
