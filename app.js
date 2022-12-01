@@ -7,7 +7,12 @@ function isBirthdayLucky(){
       const dob = dateOfBirth.value;
       const sum = calculateSum(dob);
       //console.log(sum);
-      compareValues(sum, luckyNumber.value)
+      if(dob&&luckyNumber.value){
+        compareValues(sum, luckyNumber.value)
+      }else{
+        outputBox.innerText = "Entered Invalid Values";
+      }
+      
 
 
 }
